@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detalle Producto</title>
+<link rel="stylesheet" href="css/ProductoSeleccionado.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/PortalVega.js"></script>
+</head>
+<body>
+
+	<!-- inicia el menu  -->
+	<nav
+		class="navbar sticky-top navbar-expand-lg navbar-dark p-3 mb-2
+   bg-danger">
+		<a class="navbar-brand" href="#" style="padding-left: 50px;">
+			<h3>Coporación Vega</h3>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"><a
+					class="nav-link font-weight-normal text-white"
+					href="PortalVega.html">Inicio <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle font-weight-normal text-white"
+					href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false"> Categorias </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="Productos_Categorias.html">Lacteos</a>
+						<a class="dropdown-item" href="#">Bebidas</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Fideo</a>
+					</div></li>
+				<li class="nav-item"><a
+					class="nav-link font-weight-normal text-white" href="#">Carrito</a>
+				</li>
+				<li class="nav-item"><a
+					class="nav-link font-weight-normal text-white" href="#"></a></li>
+			</ul>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a
+					class="nav-link aling-right font-weight-normal text-white"
+					href="Login.html" style="padding-right: 50px;"> Iniciar Sesion</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+	<!-- fin el menu  -->
+
+
+	<div class="container">
+		<div class="row">
+			<!-- <div class="row"> -->
+			<div class="col-md-12">
+				<nav aria-label="Page breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item active" aria-current="page"><a
+							href="PortalVega.html">Incio</a></li>
+						<li class="breadcrumb-item"><a
+							href="Productos_Categorias.html">Lacteos</a></li>
+						<li class="breadcrumb-item">Leche Gloria</li>
+					</ol>
+				</nav>
+			</div>
+			<!-- </div> -->
+			<br>
+			<div class="row">
+
+				<div class="col-6">
+					<img class="img-thumbnail"
+						src="https://tusejemplos.com/wp-content/uploads/2016/09/lacteos.jpg"
+						alt="">
+				</div>
+				<div class="col-6">
+					<h2 class="text-center">Leche Gloria</h2>
+					<form action="">
+						<div class="form-group row">
+							<label for="precio" class="col-3 col-form-label">Precio :
+							</label>
+							<div class="col-9">
+								<h3>$500</h3>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="precio" class="col-3 col-form-label">Stock :
+							</label>
+							<div class="col-9">
+								<label for="stock">50</label>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="precio" class="col-3 col-form-label">Cantidad
+								: </label>
+							<div class="col-9">
+								<input type="number" value="0" min=0 max=10 step=1
+									class="form-control" />
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="precio" class="col-3 col-form-label"></label>
+							<div class="col-9">
+								<button class="btn btn-success">Agregar Carrito</button>
+								<button class="btn btn-info">Continuar Buscando</button>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="precio" class="col-3 col-form-label">Descripcion</label>
+							<div class="col-9">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Unde similique ipsam in placeat, nostrum expedita consectetur
+									ut nesciunt recusandae esse architecto molestiae mollitia
+									maiores iusto ducimus corrupti, voluptatem totam explicabo!</p>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<br> <br>
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="product-grid6">
+						<div class="product-image6">
+							<a href="Producto_Detalle.html"> <img class="pic-1"
+								src="Img/Productos/prueba.jpg">
+							</a>
+						</div>
+						<div class="product-content">
+							<h3 class="title">
+								<a href="#">Men's Shirt</a>
+							</h3>
+							<div class="price">
+								$11.00 <span>$14.00</span>
+							</div>
+						</div>
+						<ul class="social">
+							<li><a href="" data-tip="Quick View"><i
+									class="fa fa-search"></i></a></li>
+							<li><a href="" data-tip="Add to Wishlist"><i
+									class="fa fa-shopping-bag"></i></a></li>
+							<li><a href="" data-tip="Add to Cart"><i
+									class="fa fa-shopping-cart"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="product-grid6">
+						<div class="product-image6">
+							<a href="#"> <img class="pic-1"
+								src="Img/Productos/prueba.jpg">
+							</a>
+						</div>
+						<div class="product-content">
+							<h3 class="title">
+								<a href="#">Women's Red Top</a>
+							</h3>
+							<div class="price">
+								$8.00 <span>$12.00</span>
+							</div>
+						</div>
+						<ul class="social">
+							<li><a href="" data-tip="Quick View"><i
+									class="fa fa-search"></i></a></li>
+							<li><a href="" data-tip="Add to Wishlist"><i
+									class="fa fa-shopping-bag"></i></a></li>
+							<li><a href="" data-tip="Add to Cart"><i
+									class="fa fa-shopping-cart"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="product-grid6">
+						<div class="product-image6">
+							<a href="#"> <img class="pic-1"
+								src="Img/Productos/prueba.jpg">
+							</a>
+						</div>
+						<div class="product-content">
+							<h3 class="title">
+								<a href="#">Men's Shirt</a>
+							</h3>
+							<div class="price">
+								$11.00 <span>$14.00</span>
+							</div>
+						</div>
+						<ul class="social">
+							<li><a href="" data-tip="Quick View"><i
+									class="fa fa-search"></i></a></li>
+							<li><a href="" data-tip="Add to Wishlist"><i
+									class="fa fa-shopping-bag"></i></a></li>
+							<li><a href="" data-tip="Add to Cart"><i
+									class="fa fa-shopping-cart"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="product-grid6">
+						<div class="product-image6">
+							<a href="#"> <img class="pic-1"
+								src="Img/Productos/prueba.jpg">
+							</a>
+						</div>
+						<div class="product-content">
+							<h3 class="title">
+								<a href="#">Men's Shirt</a>
+							</h3>
+							<div class="price">
+								$11.00 <span>$14.00</span>
+							</div>
+						</div>
+						<ul class="social">
+							<li><a href="" data-tip="Quick View"><i
+									class="fa fa-search"></i></a></li>
+							<li><a href="" data-tip="Add to Wishlist"><i
+									class="fa fa-shopping-bag"></i></a></li>
+							<li><a href="" data-tip="Add to Cart"><i
+									class="fa fa-shopping-cart"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Vega</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/ProductoSeleccionado.css">
+<!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/PortalVega.js"></script>
+</head>
+<body>
+	<!-- inicia el menu  -->
+	<nav
+		class="navbar sticky-top navbar-expand-lg navbar-dark p-3 mb-2
+      bg-danger">
+		<a class="navbar-brand" href="#" style="padding-left: 50px;">
+			<h3>Coporación Vega</h3>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"><a
+					class="nav-link font-weight-normal text-white"
+					href="PortalVega.html">Inicio <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle font-weight-normal text-white"
+					href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false"> Categorias </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="Productos_Categorias.html">Lacteos</a>
+						<a class="dropdown-item" href="#">Bebidas</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Fideo</a>
+					</div></li>
+				<li class="nav-item"><a
+					class="nav-link font-weight-normal text-white" href="#">Carrito</a>
+				</li>
+				<li class="nav-item"><a
+					class="nav-link font-weight-normal text-white" href="#"></a></li>
+			</ul>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a
+					class="nav-link aling-right font-weight-normal text-white"
+					href="Login.html" style="padding-right: 50px;"> Iniciar Sesion</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+	<!-- fin el menu  -->
+
+
+	<div class="container">
+		<div class="row">
+
+			<!-- inicia encabezado de productos (lacteos)  -->
+			<div class="p-3 mb-2 bg-danger text-white col-xl-12">
+				<h3 class="text-blod">
+					Productos Lacteos
+					<!-- <form>              -->
+					<a href="Productos_Categorias.html"
+						class="btn btn-success
+              float-right">Ver mas</a>
+					<!-- </form> -->
+				</h3>
+			</div>
+			<!-- fin encabezado de productos  -->
+			<!--inicio Detalle encabezado de productos  -->
+			<div class="container">
+				<div class="row">
+					<!--inicio carrito productos  -->
+					<div class="col-md-3 col-sm-6">
+						<div class="product-grid6">
+							<div class="product-image6">
+								<a href="Producto_Detalle.html"> <img class="pic-1"
+									src="Img/Productos/prueba.jpg">
+								</a>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="#">Men's Shirt</a>
+								</h3>
+								<div class="price">
+									$11.00 <span>$14.00</span>
+								</div>
+							</div>
+							<ul class="social">
+								<li><a href="Producto_Detalle.html" data-tip="Quick View"><i
+										class="fa fa-search"></i></a></li>
+								<!-- <li><a href="" data-tip="Add to Wishlist"><i class="fa
+                        fa-shopping-bag"></i></a></li> -->
+								<li><a href="CarritoCompra.html" data-tip="Add to Cart"><i
+										class="fa
+                        fa-shopping-cart"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="product-grid6">
+							<div class="product-image6">
+								<a href="Producto_Detalle.html"> <img class="pic-1"
+									src="Img/Productos/prueba.jpg">
+								</a>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="#">Women's Red Top</a>
+								</h3>
+								<div class="price">
+									$8.00 <span>$12.00</span>
+								</div>
+							</div>
+							<ul class="social">
+								<li><a href="Producto_Detalle.html" data-tip="Quick View"><i
+										class="fa fa-search"></i></a></li>
+								<!-- <li><a href="" data-tip="Add to Wishlist"><i class="fa
+                        fa-shopping-bag"></i></a></li> -->
+								<li><a href="CarritoCompra.html" data-tip="Add to Cart"><i
+										class="fa
+                        fa-shopping-cart"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="product-grid6">
+							<div class="product-image6">
+								<a href="Producto_Detalle.html"> <img class="pic-1"
+									src="Img/Productos/prueba.jpg">
+								</a>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="#">Men's Shirt</a>
+								</h3>
+								<div class="price">
+									$11.00 <span>$14.00</span>
+								</div>
+							</div>
+							<ul class="social">
+								<li><a href="" data-tip="Quick View"><i
+										class="fa fa-search"></i></a></li>
+								<li><a href="" data-tip="Add to Wishlist"><i
+										class="fa
+                        fa-shopping-bag"></i></a></li>
+								<li><a href="" data-tip="Add to Cart"><i
+										class="fa
+                        fa-shopping-cart"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="product-grid6">
+							<div class="product-image6">
+								<a href="Producto_Detalle.html"> <img class="pic-1"
+									src="Img/Productos/prueba.jpg">
+								</a>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="#">Men's Shirt</a>
+								</h3>
+								<div class="price">
+									$11.00 <span>$14.00</span>
+								</div>
+							</div>
+							<ul class="social">
+								<li><a href="" data-tip="Quick View"><i
+										class="fa fa-search"></i></a></li>
+								<li><a href="" data-tip="Add to Wishlist"><i
+										class="fa
+                        fa-shopping-bag"></i></a></li>
+								<li><a href="" data-tip="Add to Cart"><i
+										class="fa
+                        fa-shopping-cart"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--fin Detalle encabezado de productos (lacteos)  -->
+
+
+				<!-- inicia encabezado de productos (Verduras)  -->
+				<div class="p-3 mb-2 bg-danger text-white col-xl-12">
+					<h3 class="text-blod">
+						Productos Lacteos
+						<!-- <form>-->
+						<a href="Productos_Categorias.html"
+							class="btn btn-success
+                float-right">Ver mas</a>
+						<!-- </form> -->
+					</h3>
+				</div>
+				<!-- fin encabezado de productos  -->
+				<!--inicio Detalle encabezado de productos  -->
+				<div class="container">
+					<div class="row">
+						<!--inicio carrito productos  -->
+						<div class="col-md-3">
+							<div class="card">
+								<img
+									src="https://img2.freepng.es/20180425/dze/kisspng-milk-cream-dairy-products-food-5ae06f48102e29.6555457215246579920663.jpg"
+									class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on
+										the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-info">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card">
+								<img
+									src="https://img2.freepng.es/20180425/dze/kisspng-milk-cream-dairy-products-food-5ae06f48102e29.6555457215246579920663.jpg"
+									class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on
+										the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-info">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card">
+								<img
+									src="https://img2.freepng.es/20180425/dze/kisspng-milk-cream-dairy-products-food-5ae06f48102e29.6555457215246579920663.jpg"
+									class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on
+										the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-info">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card">
+								<img
+									src="https://img2.freepng.es/20180425/dze/kisspng-milk-cream-dairy-products-food-5ae06f48102e29.6555457215246579920663.jpg"
+									class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on
+										the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-info">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<!--fin carrito productos  -->
+
+					</div>
+					<!--fin Detalle encabezado de productos (Verduras)  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<!-- Inicio Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1"
+						role="dialog" aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Distrito de
+										Compra</h5>
+									<button type="button" class="close" data-dismiss="modal"
+										aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<label for="exampleFormControlSelect1">Distrito</label> <select
+												class="form-control" id="exampleFormControlSelect1">
+												<option>Seleccionar</option>
+												<option>Comas</option>
+												<option>Los Olivos</option>
+											</select>
+										</div>
+									</form>
+
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary"
+										data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Aceptar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Fin Modal -->
+
+
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
